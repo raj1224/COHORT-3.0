@@ -23,3 +23,8 @@
 // firstTodo.innerHTML = "Dont' take class"
 
 
+
+function deleteTodo(index){
+    const element = document.getElementById('todo-'+index);
+    element.parentNode.removeChild(element);
+}
